@@ -1,0 +1,53 @@
+body {
+	background-color: #333EFF;
+}
+header {
+	background-color: #33CBFF;
+	background-image: url("usa hockey.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 78px; /* the image height of "usa hockey"*/
+	background-position: right 5px top 5px;
+	background-repeat: no-repeat;
+	padding: 10px;
+	padding-left: 20px;
+}
+footer {
+	background-color: #064873;
+	color: black;
+	font-family: Verdana, Arial;
+	text-align: center;
+	font-size: 90%;
+	padding: 5px;
+}
+ul {
+	list-style-position: inside;
+}
+#content {
+	background-color: #DBF1FF;
+	padding: 20px;
+	min-height: 250px;
+}
+header, footer, #content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black;
+}
+h1 {
+	color: #123357;
+	font-size: 300%;
+	font-family: Cambria,Courier;
+}
+h2 {
+	color: black;
+	font-family: Verdana, Arial;
+.floatImg {
+	float: left;
+	margin: 500px 463px;
+}
